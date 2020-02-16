@@ -1,0 +1,29 @@
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = Loader
+  FILE_GUID                      = 290e2590-d530-48c4-b8cb-dfdcd671328e
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = UefiMain
+
+#  VALID_ARCHITECTURES           = X64
+
+[Sources]
+  Main.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiLib
+  UefiApplicationEntryPoint
+  BaseCpuLib
+
+[Guids]
+  gEfiFileInfoGuid
+
+[Protocols]
+  gEfiLoadedImageProtocolGuid
+  gEfiLoadFileProtocolGuid
+  gEfiSimpleFileSystemProtocolGuid
+  gEfiSerialIoProtocolGuid

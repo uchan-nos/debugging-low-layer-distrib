@@ -1,0 +1,5 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = UchanHelloPkg
+  PACKAGE_GUID                   = 3d2cd5d4-a828-450c-a4b5-8b3bb0f361c2
+  PACKAGE_VERSION                = 0.1

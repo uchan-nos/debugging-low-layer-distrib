@@ -1,0 +1,7 @@
+/elf.out
+/movaps
+/diskimg
+/*.o
+/*.bin
+/qemu
+/mikanos.img
